@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="Assets/Css/relatorio-paciente.css">
+    <link rel="stylesheet" href="Assets/Css/print-dashboard.css">
+</head>
+<body>
+    <!--Cabecalho-->
+    <header>
+        <div class="container">
+            <div class="logo-marca">
+                <a href="index.html">
+                    <img class="hospital-img" src="../Site html/Assets/Images/hospital-logo.png" />
+                </a>
+            </div>
+            <div class="menu no-print">
+                <nav>
+                    <ul>
+                        <li class="active no-print"><a href="index.html">Home</a></li>
+                        <li><a href="medico.html">Medico</a></li>
+                        <li><a href="paciente.html">Paciente</a></li>
+                        <li><a href="consulta.html">Consulta</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--Menu-->
+    <section id="banner">
+        <div class="container column">
+            <div class="banner-headline no-print">
+                <h1>RELATORIOS</h1>            
+            </div>
+            <div class="banner-options">
+                <div class="banner1">
+                    <div class="banner-title">Relatorio:medicos</div>
+                    <div class="banner-description">
+                        <form action="">
+                            <label for="">Informe a especialidade</label><br>
+                            <input type="text">
+                        </form>
+                    </div>
+                    <button id="relatorio-medico-enviar" class="no-print" value="Gerar" onclick="window.print()" >Gerar</button>
+                </div>
+                <div class="banner2">
+                    <div class="banner-title">Relatório:pacientes</div>
+                    <div class="banner-description">
+                        <form action="">
+                            <label for="idade">Idade</label><br>
+                            <input type="text" id="idade" ><br><br>
+                            <label for="data">Data</label><br>
+                            <input type="date" id="data" ><br><br>
+
+                        </form>
+                    </div>
+                    <button id="relatorio-medico-enviar" class="no-print" value="Gerar" onclick="window.print()" >Gerar</button>
+                </div>
+                <div class="banner3">
+                    <div class="banner-title">Informações medicas</div><br>
+                    <div class="banner-title-description">
+                        <form action="">
+                            <label for="nome-medico">Nome do médico</label><br>
+                            <input type="text" id="nome-medico" ><br><br>
+                            <label for="nome-paciente">Nome do paciente</label><br>
+                            <input type="text" id="nome-paciente" ><br><br>
+                            <label for="cpf">CPF</label><br>
+                            <input type="text" id="cpf" ><br><br>
+                            <label for="data">Data</label><br>
+                            <input type="date" id="data" ><br><br>
+                            <label for="hora">Hora</label><br>
+                            <input type="hour" id="hora" ><br><br>
+                            <label for="diagnostico">Diagnosticos</label><br>
+                            <input type="text" id="diagnostico" ><br><br>
+                            <label for="medicamentos">medicamentos</label><br>
+                            <input type="text" id="medicamentos" ><br><br>
+                            <button id="relatorio-medico-enviar" class="no-print" value="Gerar" onclick="window.print()" >Gerar</button>
+                        </form>             
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+            <aside>
+                    <div class="widget-body flex1">
+                    </div>
+                </div>
+                    <div class="widget-body">
+                        <div class="widget-body-conteudo-2">
+                            <div class="widget-body flex1"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </aside>                
+    </section>
+    <footer>
+            <div class="footer-copyright">
+                copyright - Todos os direitos reservados ao CEO 
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
